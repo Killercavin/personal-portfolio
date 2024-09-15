@@ -1,0 +1,67 @@
+@import '../../../vars.css';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: inherit;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--color-text);
+}
+
+.link {
+    margin-left: 5px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 15px;
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.socialIcon img {
+    width: 20px;
+    height: 20px;
+}
+
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+@media screen and (max-width: 825px) {
+    .container {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .socialIcons {
+        justify-content: center;
+    }
+}

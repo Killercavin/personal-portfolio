@@ -1,0 +1,84 @@
+@import '../../vars.css';
+.container {
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-primary);
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    width: 45vw;
+}
+
+.link {
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: var(--color-text-alt);
+}
+
+.divider {
+    width: 100%;
+    height: 2.5px;
+    background-color: var(--color-text-alt);
+    margin: 20px 0;
+}
+
+.text {
+    font-size: 15px;
+    color: var(--color-text);
+}
+
+@media (min-width: 640px) {
+    .content {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .links {
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .links {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divider {
+        margin: 10px 0;
+    }
+}

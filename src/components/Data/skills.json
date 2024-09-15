@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Git",
+        "imageSrc": "/images/skills/git.png"
+    },
+    {
+        "title": "Bootstrap",
+        "imageSrc": "/images/skills/bootstrap.png"
+    },
+    {
+        "title": "TailwindCSS",
+        "imageSrc": "/images/skills/tailwind.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "/images/skills/react.png"
+    },
+    {
+        "title": "Vite",
+        "imageSrc": "/images/skills/vite.png"
+    },
+    {
+        "title": "NextJS",
+        "imageSrc": "/images/skills/nextjs.png"
+    },
+    {
+        "title": "NodeJS",
+        "imageSrc": "/images/skills/node.png"
+    },
+    {
+        "title": "MongoDB",
+        "imageSrc": "/images/skills/mongodb.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "/images/skills/javascript.png"
+    },
+    {
+        "title": "TypeScript",
+        "imageSrc": "/images/skills/typescript.png"
+    },
+    {
+        "title": "PHP",
+        "imageSrc": "/images/skills/php.png"
+    },
+    {
+        "title": "Dart",
+        "imageSrc": "/images/skills/dart.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "/images/skills/python.png"
+    }
+]

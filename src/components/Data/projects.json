@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Product Store",
+        "imageSrc": "/images/projects/productstore.png",
+        "description": "Learning React framework by creating a product store landing page",
+        "skills": [
+            "React"
+        ],
+        "demo": "",
+        "source": "https://github.com/Killercavin/digital-ocean-tutorial"
+    },
+    {
+        "title": "Role Playing Game",
+        "imageSrc": "/images/projects/roleplay.png",
+        "description": "A web page for learning user interaction handling in JavaScript",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "demo": "",
+        "source": "https://github.com/Killercavin/RolePlayingGame"
+    },
+    {
+        "title": "AI Text Summarizer App",
+        "imageSrc": "/images/projects/aitextsummarizerapp.png",
+        "description": "Learning API intergration on AI Text Summarization using API",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "demo": "",
+        "source": "https://github.com/Killercavin/AI-Text-Summarizer-App-Starter-Template"
+    },
+    {
+        "title": "TMGrafixlab",
+        "imageSrc": "/images/projects/tmgrafixlab.png",
+        "description": "Web page for the graphic design business TMGrafixlab",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "demo": "https://killercavin.github.io/Tmgrafixlab/",
+        "source": "https://github.com/Killercavin/Tmgrafixlab"
+    },
+    {
+        "title": "FinanSmart",
+        "imageSrc": "/images/projects/FinanSmart.png",
+        "description": "Web page for the financial management with AI",
+        "skills": [
+            "NextJS",
+            "React",
+            "MongoDB",
+            "Clerk",
+            "OpenAI API"
+        ],
+        "demo": "",
+        "source": "https://github.com/Killercavin/ai-finance-manager"
+    },
+    {
+        "title": "CancerBeat",
+        "imageSrc": "/images/projects/CancerBeat.png",
+        "description": "A web page for health diagnostics with AI",
+        "skills": [
+            "NextJS",
+            "React",
+            "Drizzle",
+            "MongoDB",
+            "Gemini API"
+        ],
+        "demo": "",
+        "source": "https://github.com/Killercavin/cancer-beat"
+    }
+]

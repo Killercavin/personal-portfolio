@@ -1,0 +1,38 @@
+[
+    {
+        "href": "mailto:cavinlarry001@gmail.com",
+        "imgSrc": "/images/contact/gmail.png",
+        "alt": "gmail icon",
+        "srOnly": "Gmail"
+    },
+    {
+        "href": "mailto:cavinlarry@outlook.com",
+        "imgSrc": "/images/contact/outlook.png",
+        "alt": "outlook icon",
+        "srOnly": "Outlook"
+    },
+    {
+        "href": "https://linkedin.com/in/killercavin",
+        "imgSrc": "/images/contact/linkedin.png",
+        "alt": "linkedin icon",
+        "srOnly": "LinkedIn"
+    },
+    {
+        "href": "https://x.com/Killercavin",
+        "imgSrc": "/images/contact/xtwitter.png",
+        "alt": "x icon",
+        "srOnly": "Twitter"
+    },
+    {
+        "href": "https://github.com/Killercavin",
+        "imgSrc": "/images/contact/github.png",
+        "alt": "github icon",
+        "srOnly": "GitHub"
+    },
+    {
+        "href": "https://gitlab.com/Killercavin",
+        "imgSrc": "/images/contact/gitlab.png",
+        "alt": "gitlab icon",
+        "srOnly": "GitLab"
+    }
+]

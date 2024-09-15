@@ -1,0 +1,9 @@
+:root{
+    /* Colors */
+    --color-text: #FFF;
+    --color-text-alt: #05EEFF;
+    --color-primary: #060425;
+    --color-secondary: #060445;
+    --color-dark: var(--color-secondary);
+    --color-bg: var(--color-primary);
+}

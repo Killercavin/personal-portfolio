@@ -1,0 +1,130 @@
+@import '../../vars.css';
+
+.container{
+    margin: 75px 10% 0 10%;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+}
+
+.skills{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.skillImageContainer{
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+.skillImageContainer img{
+    width: 45px;
+}
+
+.skill p{
+    font-size: 18px;
+    font-family: inherit;
+    text-align: center;
+    color: var(--color-text-alt);
+    font-weight: lighter;
+}
+
+.career{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.careerItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: var(--color-secondary);
+    background: linear-gradient(75deg, var(--color-secondary) 0%, rgba(25, 55, 105, 0) 25%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.careerItem img{
+    width: 50px;
+}
+
+.careerItemDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.careerItemDetails h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: var(--color-text-alt);
+}
+
+.careerItemDetails p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.careerItemDetails ul{
+    margin-top: 5px 0 0 15px;
+    list-style-position: inside;
+    font-size: 18px;
+    list-style: none;
+}
+
+.careerItemDetails ul li{
+    margin: 0.3125rem 0;
+}
+
+@media screen and (max-width: 51.5625rem){
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .skills{
+        width: 100vw;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .career{
+        width: 100vw;
+        gap: 10px;
+    }
+}
